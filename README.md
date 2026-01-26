@@ -41,3 +41,17 @@ Bu repository, **Java** dili kullanılarak geliştirilmiş **Cucumber BDD (Behav
 └── resources
 └── features # Gherkin (.feature) dosyaları
 ```
+---
+
+## 📘 Feature ve Step Definitions
+
+Projedeki test senaryoları **.feature** uzantılı dosyalarda yazılır. Bu dosyalar, uygulamanın davranışlarını açık bir şekilde tanımlayan BDD senaryolarını içerir. Ardından bu senaryolardaki her bir adım (Given, When, Then) **Java step definition** classlarında uygulanır.
+
+---
+
+## ⚙️ configuration.properties
+
+Proje içinde kullanılan yapılandırma değerleri (örneğin base URL, environment ayarları vs) configuration.properties dosyasında tutulur. Bu sayede testler farklı ortamlar için kolayca düzenlenebilir.
+Bu değerler proje genelinde referans alınarak kullanılır.
+
+---
