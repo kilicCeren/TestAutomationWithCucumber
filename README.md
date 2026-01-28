@@ -84,3 +84,16 @@ Bu değerler proje genelinde referans alınarak kullanılır.
  ```
  
  --- 
+ 
+ ## 📊 Test Raporlama
+ 
+ Maven ile testler çalıştırıldığında, Cucumber'ın default raporlama araçları test sonuçlarını oluşturur. Bu raporlar target/ klasörü altında yer alır. İleri seviye raporlar için Allure veya benzeri raporlama araçları entegre edilebilir.
+ 
+ ---
+ 
+ ## 📌 Projenin Sağladıkları
+ 
+ * Okunabilir BDD formatında testler
+ * Maven ile merkezi test ve bağımlılık yönetimi
+ * Adım adım Gherkin senaryoları ile test dokümantasyonu
+ * Geliştirilebilir framework yapısı
