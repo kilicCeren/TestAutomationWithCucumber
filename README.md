@@ -97,3 +97,14 @@ Bu değerler proje genelinde referans alınarak kullanılır.
  * Maven ile merkezi test ve bağımlılık yönetimi
  * Adım adım Gherkin senaryoları ile test dokümantasyonu
  * Geliştirilebilir framework yapısı
+
+ ---
+ 
+ ## 📎 Notlar
+ 
+ * Bu proje BDD test otomasyonu içermektedir.
+ * UI testleri içeren Selenium yapısı bulunabilir veya eklenti ile genişletilebilir.
+ * Yeni senaryolar ve step definition'lar eklenerek framework genişletilebilir.
+ 
+ ---
+  
