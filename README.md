@@ -107,4 +107,8 @@ Bu değerler proje genelinde referans alınarak kullanılır.
  * Yeni senaryolar ve step definition'lar eklenerek framework genişletilebilir.
  
  ---
+
+ ## 📝 Lisans
+
+Bu proje kişisel eğitim ve portföy amaçlıdır.
   
