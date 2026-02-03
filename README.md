@@ -128,3 +128,31 @@ This repository contains a **test automation framework** developed using **Java*
 - Ensuring that tests are executed in an easy-to-run structure  
 
 ---
+
+## :hammer_and_wrench: Technologies and Tools Used
+
+| Technology | Description |
+|------------|-------------|
+| **Java** | Test automation language |
+| **Cucumber BDD** | Gherkin-based test definition and execution |
+| **Maven** | Project management and dependency resolution |
+| **JUnit** | Test execution infrastructure |
+| **Gherkin** | Human-readable test scenario language |
+
+---
+
+## :file_folder: Project Structure
+
+```TestAutomationWithCucumber/
+├── .gitignore # Ignored files in Git version control
+├── configuration.properties # Test configuration values
+├── pom.xml # Maven configuration and dependency file
+└── src
+└── test
+├── java # Test code written in Java
+│ ├── runners # Cucumber Runner classes where tests are executed
+│ ├── stepdefinitions # Java implementations of steps in feature files
+│ └── utilities # Helper classes and common utility code
+└── resources
+└── features # Gherkin (.feature) files
+```
