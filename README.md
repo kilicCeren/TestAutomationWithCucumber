@@ -156,3 +156,15 @@ This repository contains a **test automation framework** developed using **Java*
 └── resources
 └── features # Gherkin (.feature) files
 ```
+
+---
+
+## 📘 Feature and Step Definitions
+Test scenarios in the project are written in files with the **.feature** extension. These files contain BDD scenarios that clearly define the behavior of the application. Then, each step in these scenarios (Given, When, Then) is implemented in **Java step definition** classes.
+
+---
+
+## ⚙️ configuration.properties
+Configuration values used within the project (such as base URL, environment settings, etc.) are stored in the configuration.properties file. This allows tests to be easily configured for different environments. These values are referenced and used throughout the project. 
+
+---
