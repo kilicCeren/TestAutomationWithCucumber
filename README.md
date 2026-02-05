@@ -168,3 +168,31 @@ Test scenarios in the project are written in files with the **.feature** extensi
 Configuration values used within the project (such as base URL, environment settings, etc.) are stored in the configuration.properties file. This allows tests to be easily configured for different environments. These values are referenced and used throughout the project. 
 
 ---
+
+## 🚀 Running the Project
+### 🧩 Prerequisites
+* Java JDK 8 or higher
+* Maven
+* Git
+* IntelliJ IDEA or Eclipse IDE
+
+---
+
+## 📌 Installation and Execution
+
+### Clone the repository:
+
+```
+git clone https://github.com/kilicCeren/TestAutomationWithCucumber.git
+```
+
+### Run the tests with Maven:
+```
+mvn clean test
+```
+
+### To run tests with a specific tag:
+```
+mvn clean test -Dcucumber.filter.tags="@regression"
+```
+---
