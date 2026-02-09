@@ -200,8 +200,21 @@ mvn clean test -Dcucumber.filter.tags="@regression"
 When tests are executed with Maven, Cucumber’s default reporting tools generate test results. These reports are located under the target/ directory. For advanced reporting, Allure or similar reporting tools can be integrated.
 
 ---
+
 ## 📌 What the Project Provides
 * Readable tests in BDD format
 * Centralized test and dependency management with Maven
 * Test documentation with step-by-step Gherkin scenarios
 * Extensible framework structure
+
+---
+
+## 📎 Notes
+This project includes BDD test automation.
+A Selenium-based structure for UI tests may exist or can be extended via plugins.
+The framework can be expanded by adding new scenarios and step definitions.
+
+---
+
+## 📝 License
+This project is intended for personal education and portfolio purposes. 
